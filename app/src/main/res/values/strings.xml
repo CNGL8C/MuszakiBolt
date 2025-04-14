@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">MuszakiBolt</string>
+    <string name="muszaki_bolt">Műszaki bolt</string>
+    <string name="bejelentkezes">Bejelentkezés</string>
+    <string name="google_login">Bejelentkezés Google fiókkal</string>
+    <string name="anon_login">Bejelentkezés vendégként</string>
+    <string name="regisztracio">Regisztráció</string>
+    <string name="email_cim">Email cím</string>
+    <string name="jelszo">Jelszó</string>
+    <string name="user_name">Felhasználónév</string>
+    <string name="jelszo_ujra">Jelszó ismét</string>
+    <string name="telefonszam">Telefonszám</string>
+    <string name="cim">Cím</string>
+    <string name="fiok_tipus">Fiók típusa</string>
+    <string name="vasarlo">Vásárló</string>
+    <string name="elado">Eladó</string>
+    <string name="megse">Mégse</string>
+    <string name="nev_placeholder">Név</string>
+    <string name="alcim_placeholder">Alcím</string>
+    <string name="kosarba">Kosárba</string>
+    <string name="torles">Törlés</string>
+    <string name="kereses">Keresés</string>
+    <string name="kosar">Kosár</string>
+    <string name="nezet">Nézet</string>
+    <string name="kijelentkezes">Kijelentkezés</string>
+    <string name="beallitas">Beállítás</string>
+    <string name="vasarlas">Vásárlás</string>
+    <string-array name="article_names">
+        <item>Nokia telefon</item>
+        <item>Samsung TV</item>
+        <item>HDMI kábel</item>
+        <item>Logitech kontroller</item>
+        <item>Airpods</item>
+    </string-array>
+    <string-array name="article_infos">
+        <item>Jó régi</item>
+        <item>Lapos</item>
+        <item>Nehezen szakad</item>
+        <item>Strapabíró</item>
+        <item>Nem esik ki könnyen a fülből</item>
+    </string-array>
+    <string-array name="article_prices">
+        <item>10000 Ft</item>
+        <item>120000 Ft</item>
+        <item>3000 Ft</item>
+        <item>5000 Ft</item>
+        <item>12000 Ft</item>
+    </string-array>
+    <array name="article_ratings">
+        <item>2</item>
+        <item>4.5</item>
+        <item>4</item>
+        <item>5</item>
+        <item>3.5</item>
+    </array>
+    <array name="article_images">
+        <item>@drawable/nokia</item>
+        <item>@drawable/samsung</item>
+        <item>@drawable/hdmi</item>
+        <item>@drawable/logitech</item>
+        <item>@drawable/airpods</item>
+    </array>
+</resources>
