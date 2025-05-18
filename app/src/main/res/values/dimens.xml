@@ -1,8 +1,0 @@
-<resources>
-    <dimen name="register_margin_top">10dp</dimen>
-    <dimen name="default_margin_side">15dp</dimen>
-    <dimen name="login_side_margin">50dp</dimen>
-    <dimen name="reg_button_width">200dp</dimen>
-    <dimen name="title_text_size">48sp</dimen>
-    <dimen name="regular_text_size">20sp</dimen>
-</resources>
