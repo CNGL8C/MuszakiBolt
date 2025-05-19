@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/articleImage"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:adjustViewBounds="true" />
+
+        <TextView
+            android:id="@+id/articleTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/articleImage"
+            android:layout_marginTop="0dp"
+            android:padding="8dp"
+            android:text="@string/nev_placeholder"
+            android:textColor="?android:textColorSecondary"
+            android:textSize="@dimen/regular_text_size" />
+
+        <RatingBar
+            android:id="@+id/ratings"
+            style="@android:style/Widget.DeviceDefault.Light.RatingBar.Small"
+            android:layout_width="98dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/articleTitle"
+            android:layout_marginTop="4dp"
+            android:isIndicator="true"
+            android:numStars="5"
+            android:padding="8dp"
+            android:textSize="@dimen/regular_text_size" />
+
+        <TextView
+            android:id="@+id/articleSubtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ratings"
+            android:padding="8dp"
+            android:textSize="@dimen/regular_text_size"
+            android:text="@string/alcim_placeholder" />
+
+        <TextView
+            android:id="@+id/articlePrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/articleSubtitle"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="12dp"
+            android:padding="8dp"
+            android:textSize="@dimen/regular_text_size"
+            android:textColor="@color/red" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/articlePrice"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/add_to_cart"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textSize="@dimen/regular_text_size"
+                android:text="@string/kosarba"
+                />
+            <Button
+                android:id="@+id/delete"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textSize="@dimen/regular_text_size"
+                android:text="@string/torles_aruk_kozul" />
+            <Button
+                android:id="@+id/edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textSize="@dimen/regular_text_size"
+                android:text="@string/szerkeszt_aru" />
+        </LinearLayout>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
